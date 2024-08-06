@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Resort & Farmhouse in Jaipur | L Town Resort & Farmhouse</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <nav>
+        <div class="top">
+            <div class="top-links">
+                <a href="https://www.facebook.com/ltownresort"><img src="./assets/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/ltownresort/"><img src="./assets/instagram.png" alt="Instagram"></a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B917073304076&text&type=phone_number&app_absent=0"><img src="./assets/whatsapp.png" alt="Whatsapp"></a>
+            </div>
+            <a href="tel: +917073304076">+91 7073304076</a>
+        </div>
+        <div class="navbar">
+            <a href="index.html" class="nav-left">
+                <img src="./assets/logo.png" alt="Logo">
+                <h1>L Town Resort</h1>
+            </a>
+            <div class="nav-right">
+                <button class="nav-btn" onclick="nav()">☰</button>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="#about-us">About Us</a>
+                    <a href="#amenities">Amenities</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                    <a class="hover-btn" href="tel: +917073304076">Call Now</a>
+                </div>
+            </div>
+        </div>
+        <div id="mySidebar" class="sidebar">
+            <a onclick="nav()" href="index.html">Home</a>
+            <a onclick="nav()" href="#about-us">About Us</a>
+            <a onclick="nav()" href="#amenities">Amenities</a>
+            <a onclick="nav()" href="#testimonials">Testimonials</a>
+            <a onclick="nav()" href="#gallery">Gallery</a>
+            <a onclick="nav()" href="#contact">Contact</a>
+        </div>
+    </nav>
+    
+    <header>
+        <div class="head-slideshow">
+            <!-- Swiper -->
+            <div class="swiper headSlideshow">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/img2.png"></div>
+                    <div class="swiper-slide"><img src="./assets/img1.png"></div>
+                    <div class="swiper-slide"><img src="./assets/img3.png"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+            <!-- Swiper JS -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            
+            <!-- Initialize Swiper -->
+            <script>
+                var headSlideshow = new Swiper(".headSlideshow", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+        </div>
+        <div class="head-content">
+            <div class="head-heading">L Town Resort</div>
+            <div class="head-text">Escape the ordinary and discover extraordinary at Little Resort Town. Nestled in the heart of Jaipur, our resort invites you to experience the magic of Rajasthan. Unwind in our opulent accommodations and embark on unforgettable adventures.</div>
+            <a class="hover-btn" href="tel: +917073304076">Call Now</a>
+        </div>
+        <div class="info">
+            <div class="info-card">
+                <img src="./assets/contact.png" class="info-icon">
+                <div class="info-heading">Contact</div>
+                <p class="info-text"><strong>Phone: </strong> +91 70733 04076<br><strong>Instagram: </strong>@ltownresort</p>
+            </div>
+            <div class="info-card">
+                <img src="./assets/location.png" class="info-icon">
+                <div class="info-heading">Location</div>
+                <p class="info-text">Near CKD Heights gandhi path vaishali nagar, Jaipur<br><a href="https://maps.app.goo.gl/wvHQFW9dHjtk4BNu8">Get directions</a></p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about-us">
+            <div class="section-heading">
+                About Us
+            </div>
+            <p class="section-text">
+                Nestled in the heart of Jaipur, a city steeped in history and culture, <strong>Little Resort Town</strong> offers a serene escape from the bustling metropolis. Our resort is a harmonious blend of traditional Rajasthani charm and contemporary comfort, providing you with an unforgettable experience.<br><br>Immerse yourself in the rich tapestry of Rajasthan as you unwind in our luxurious accommodations, each thoughtfully designed to reflect the region's heritage. Indulge your senses with authentic Rajasthani cuisine prepared by our talented chefs, and explore the vibrant local culture with our curated experiences.<br><br>Whether you seek relaxation, adventure, or cultural immersion, Little Resort Town promises to be your home away from home. Join us on a journey of discovery and create lasting memories in the enchanting city of Jaipur.
+            </p>
+        </section>
+        <section id="amenities">
+            <div class="section-heading">
+                Amenities
+            </div>
+            <p class="section-text">
+                Explore the top tier amenities of L Town Resort while enjoying with your family & friends
+            </div>
+                <div class="amenities">
+                    <div class="amenity">
+                        <img src="./assets/room.png">
+                        <p>Luxury Air Conditioned Rooms</p>
+                        <p>Have a comfortable stay with four premium air conditioned rooms.</p>
+                    </div>
+                    <div class="amenity">
+                        <img src="./assets/swimming-pool.png" alt="">
+                        <p>Swimming Pool</p>
+                        <p>Private pool for just the people you want.</p>
+                    </div>
+                    <div class="amenity">
+                        <img src="./assets/party_space.png" alt="">
+                        <p>Party Space</p>
+                        <p>Have a comfortable stay with four premium air conditioned rooms.</p>
+                    </div>
+                    <div class="amenity">
+                        <img src="./assets/outdoor.png" alt="">
+                        <p>Open Outdoor Area</p>
+                        <p>Who doesn't like open space? We offer well-maintained outdoor area for you to enjoy some outdoor activities.</p>
+                    </div>
+                    <div class="amenity">
+                        <img src="./assets/music.png" alt="">
+                        <p>Music Setup</p>
+                        <p>Can't have fun without music so we provide a super music setup for your friends and family.</p>
+                    </div>
+                    <div class="amenity">
+                        <img src="./assets/wifi.png" alt="">
+                        <p>Wifi</p>
+                        <p>You don't have to worry about the internet connection if you are browsing something, we covered that for you.</p>
+                    </div>
+                    <div class="amenity">
+                        <img src="./assets/kitchen.png" alt="">
+                        <p>Kitchen</p>
+                        <p>Want to show off your cooking skills? Do that in our well-equipped kitchen.</p>
+                    </div>
+                    <div class="amenity">
+                        <img src="./assets/parking.png" alt="">
+                        <p>Parking Available</p>
+                        <p>Well parking is always a problem, but not in our case. We offer separate parking for your friends & family</p>
+                    </div>
+                    <div class="amenity">
+                        <img src="./assets/maintainence.png" alt="">
+                        <p>Maintainance</p>
+                        <p>Excellent maintainance services so that you don't have to worry about anything else except having fun.</p>
+                    </div>
+                </div>
+        </section>
+        <section id="testimonials">
+            <div class="section-heading">Testimonials</div>
+            <p class="section-text">Well, our customers probably never stop talking about us.<br> Here are some of their reviews.</p>
+            <div class="testimonial-slideshow">
+                <!-- Swiper -->
+                <div class="swiper testimonialSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonial">
+                                <img src="./assets/testimonial.png">
+                                <div class="testimonial-content">
+                                    I celebrated my day at LTown and even the decoration was handled by the ltown staff. We enjoyed a lot here. This place is good for private parties. Also it's couple friendly so we as a group enjoyed a lot there. Best for private space. 👍🌴🌴
+                                </div>
+                                <div class="testimonial-name">By <strong>Rosie</strong></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial">
+                                <img src="./assets/testimonial.png">
+                                <div class="testimonial-content">
+                                    Muje LTown ke bare mei Instagram se pata chala. Jab mei visit pe gya muje house ka ambience dekh kar mene pura resort book krdia. Mere bhai ka birthday tha and usko ye surprise bhot acha laga. Staff ne decoration and arrangements mei bhot help kia. Thank you for the beautiful experience!
+                                </div>
+                                <div class="testimonial-name">By <strong>Avya Kothari</strong></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonial">
+                                <img src="./assets/testimonial.png">
+                                <div class="testimonial-content">
+                                    I'm NRI. Mei yaha Indonesia se aayi stay ke liye bhot pyara and spacious jagah hai. Love from Indonesia.👍🥰 India mei itna acha place hai for enjoyment and peace!
+                                </div>
+                                <div class="testimonial-name">By <strong>Avarose</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                
+                <!-- Initialize Swiper -->
+                <script>
+                    var testimonialSwiper = new Swiper(".testimonialSwiper", {
+                        autoHeight: true,
+                        spaceBetween: 20,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: true,
+                        },
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                    });
+                </script>
+            </div>
+            <a href="https://maps.app.goo.gl/gexr3sxHDyCLJd4U7" class="hover-btn">See More Reviews</a>
+        </section>
+        <section id="gallery">
+            <div class="section-heading">Gallery</div>
+            <p class="section-text">How good we look in pictures?</p>
+            <div class="gallery-slideshow">
+                <!-- Swiper -->
+                <div class="swiper gallerySlideshow">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img1.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img2.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img3.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img4.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img5.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img6.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img7.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img8.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img9.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img10.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img11.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img12.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img13.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img14.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img15.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img16.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img17.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img18.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img19.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img20.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img21.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img22.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img23.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img24.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img25.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img26.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img27.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img28.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img29.png"></div>
+                        <div class="swiper-slide"><img onclick="gallery()" src="./assets/img30.png"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                
+                <!-- Initialize Swiper -->
+                <script>
+                    var gallerySlideshow = new Swiper(".gallerySlideshow", {
+                        autoHeight: true,
+                        loop:true,
+                        spaceBetween: 20,
+                        navigation: {
+                            nextEl: ".swiper-button-next",
+                            prevEl: ".swiper-button-prev",
+                        },
+                    });
+                </script>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="section-heading">Contact Us</div>
+            <p class="section-text">Get in touch and book our resort for the best staycation you will ever have</p>
+            <div class="contact-info">
+
+                <div class="info">
+                    <div class="info-card">
+                        <img src="./assets/contact.png" class="info-icon">
+                        <div class="info-heading">Contact</div>
+                        <p class="info-text"><strong>Phone: </strong> +91 70733 04076<br><strong>Instagram: </strong>@ltownresort</p>
+                    </div>
+                    <div class="info-card">
+                        <img src="./assets/location.png" class="info-icon">
+                        <div class="info-heading">Location</div>
+                        <p class="info-text">Near CKD Heights gandhi path vaishali nagar, Jaipur<br><a href="https://maps.app.goo.gl/wvHQFW9dHjtk4BNu8">Get directions</a></p>
+                    </div>
+                </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7821.525681365172!2d75.69020372125271!3d26.90193408874439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4b003dbda243%3A0x463d958228f53a82!2sL%20Town%20Resort!5e0!3m2!1sen!2sin!4v1722921310939!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="section-heading">L Town Resort</div>
+        <img src="./assets/logo.png" alt="Logo">
+        <div class="footer-links">
+            <div class="quick-links">
+                <div class="footer-links-heading">Quick Links</div>
+                <a href="index.html">Home</a>
+                <a href="#about-us">About Us</a>
+                <a href="#amenities">Amenities</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+                <div class="footer-links-heading">Social Links</div>
+                <a href="https://www.facebook.com/ltownresort">Facebook</a>
+                <a href="https://www.instagram.com/ltownresort/">Instagram</a>
+                <a href="https://api.whatsapp.com/send/?phone=%2B917073304076&text&type=phone_number&app_absent=0">Whatsapp</a>
+            </div>
+        </div>
+        <p>© L Town Resort - All rights reserved<br>Made & Designed by Anku</p>
+    </footer>
+    
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
